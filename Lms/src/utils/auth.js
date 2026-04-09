@@ -1,6 +1,5 @@
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "/api";
-const isDemoAuthEnabled =
-  import.meta.env.DEV || import.meta.env.VITE_ENABLE_DEMO_AUTH === "true";
+const isDemoAuthEnabled = import.meta.env.VITE_ENABLE_DEMO_AUTH !== "false";
 
 const demoCredentials = {
   uid: "108428",

@@ -10,8 +10,7 @@ export default function Login() {
   const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
-  const showDemoHint =
-    import.meta.env.DEV || import.meta.env.VITE_ENABLE_DEMO_AUTH === "true";
+  const showDemoHint = import.meta.env.VITE_ENABLE_DEMO_AUTH !== "false";
 
   const roles = ["Student", "Mentor", "Admin"];
 
