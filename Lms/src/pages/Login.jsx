@@ -6,23 +6,34 @@ export default function Login() {
   const [role, setRole] = useState("Student");
   const [uid, setUid] = useState("");
   const [password, setPassword] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const navigate = useNavigate();
+  const showDemoHint =
+    import.meta.env.DEV || import.meta.env.VITE_ENABLE_DEMO_AUTH === "true";
 
   const roles = ["Student", "Mentor", "Admin"];
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    setErrorMessage("");
 
     if (role === "Student") {
-      const success = loginDetails(uid, password);
+      setLoading(true);
+      const result = await loginDetails(uid, password, role);
+      setLoading(false);
 
-      if (!success) {
-        alert("Login failed. Please try again");
+      if (!result.success) {
+        setErrorMessage(result.message || "Login failed. Please try again.");
         return;
       }
+
       navigate("/student");
+      return;
     }
+
+    setErrorMessage("Dashboard abhi sirf Student role ke liye available hai.");
   };
 
   return (
@@ -101,13 +112,20 @@ export default function Login() {
             {/* Button */}
             <button
               type="submit"
+              disabled={loading}
               className="inline-flex items-center justify-center w-full rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40 disabled:opacity-50 bg-white text-black hover:bg-gray-200 h-10 px-4 py-2"
             >
-              Sign in
+              {loading ? "Signing in..." : "Sign in"}
             </button>
 
+            {errorMessage && (
+              <p className="text-center text-sm text-rose-400">{errorMessage}</p>
+            )}
+
             <p className="text-center text-xs text-gray-400">
-              Use your role-based credentials. Contact admin if needed.
+              {showDemoHint
+                ? "Demo login: UID 108428 and password 123456."
+                : "Use your role-based credentials. Contact admin if needed."}
             </p>
           </form>
         </div>
