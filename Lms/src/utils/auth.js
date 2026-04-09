@@ -129,8 +129,13 @@ export const loginDetails = async (identifier, password, role = "Student") => {
     });
 
     const payload = await response.json().catch(() => ({}));
+    const hasUserPayload =
+      payload &&
+      typeof payload === "object" &&
+      payload.user &&
+      typeof payload.user === "object";
 
-    if (!response.ok) {
+    if (!response.ok || !hasUserPayload) {
       const demoResult = tryDemoLogin(identifier, password, role);
       if (demoResult) {
         return demoResult;
