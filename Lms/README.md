@@ -1,16 +1,26 @@
-# React + Vite
+# LMS App (Workspace)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folder contains the full source code for the LMS CodingGita Clone project.
 
-Currently, two official plugins are available:
+## Quick Start
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+npm install
+cp .env.example .env
+npm run dev
+```
 
-## React Compiler
+In another terminal:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm run server
+```
 
-## Expanding the ESLint configuration
+Frontend: `http://localhost:5173`  
+Backend health: `http://localhost:5000/api/health`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Full Documentation
+
+See the root README for complete setup, deployment, features, and architecture details:
+
+- [`../README.md`](../README.md)

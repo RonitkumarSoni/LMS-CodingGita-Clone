@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="LMS dashboard preview">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg2)"/>
+
+  <rect x="40" y="30" width="1200" height="64" rx="14" fill="#0b1220" stroke="#1f2937"/>
+  <circle cx="86" cy="62" r="16" fill="url(#accent)"/>
+  <text x="118" y="69" fill="#f8fafc" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">LMS CodingGita</text>
+  <rect x="935" y="45" width="120" height="32" rx="8" fill="#111827" stroke="#374151"/>
+  <text x="995" y="67" text-anchor="middle" fill="#cbd5e1" font-size="16" font-family="Segoe UI, Arial, sans-serif">Student</text>
+  <rect x="1070" y="45" width="150" height="32" rx="8" fill="#0f172a" stroke="#374151"/>
+  <text x="1145" y="67" text-anchor="middle" fill="#9ca3af" font-size="16" font-family="Segoe UI, Arial, sans-serif">UID 108428</text>
+
+  <rect x="40" y="114" width="380" height="140" rx="16" fill="#0b1220" stroke="#1f2937"/>
+  <text x="68" y="155" fill="#94a3b8" font-size="18" font-family="Segoe UI, Arial, sans-serif">Semester Attendance</text>
+  <text x="68" y="210" fill="#f8fafc" font-size="48" font-family="Segoe UI, Arial, sans-serif" font-weight="700">88%</text>
+  <rect x="68" y="224" width="320" height="10" rx="5" fill="#1f2937"/>
+  <rect x="68" y="224" width="282" height="10" rx="5" fill="url(#accent)"/>
+
+  <rect x="440" y="114" width="380" height="140" rx="16" fill="#0b1220" stroke="#1f2937"/>
+  <text x="468" y="155" fill="#94a3b8" font-size="18" font-family="Segoe UI, Arial, sans-serif">Assignments</text>
+  <text x="468" y="210" fill="#f8fafc" font-size="48" font-family="Segoe UI, Arial, sans-serif" font-weight="700">12</text>
+  <text x="565" y="210" fill="#f59e0b" font-size="22" font-family="Segoe UI, Arial, sans-serif">pending: 3</text>
+
+  <rect x="840" y="114" width="400" height="140" rx="16" fill="#0b1220" stroke="#1f2937"/>
+  <text x="868" y="155" fill="#94a3b8" font-size="18" font-family="Segoe UI, Arial, sans-serif">Upcoming Events</text>
+  <text x="868" y="200" fill="#e2e8f0" font-size="20" font-family="Segoe UI, Arial, sans-serif">Hackathon Orientation</text>
+  <text x="868" y="232" fill="#94a3b8" font-size="16" font-family="Segoe UI, Arial, sans-serif">Saturday, 11:00 AM</text>
+
+  <rect x="40" y="274" width="600" height="396" rx="16" fill="#0b1220" stroke="#1f2937"/>
+  <text x="68" y="316" fill="#f8fafc" font-size="26" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Subject Attendance</text>
+
+  <rect x="68" y="338" width="544" height="66" rx="10" fill="#060b16" stroke="#1e293b"/>
+  <text x="90" y="378" fill="#e2e8f0" font-size="20" font-family="Segoe UI, Arial, sans-serif">SU0201 - ReactJS</text>
+  <text x="560" y="378" text-anchor="end" fill="#22c55e" font-size="20" font-family="Segoe UI, Arial, sans-serif">Present</text>
+
+  <rect x="68" y="418" width="544" height="66" rx="10" fill="#060b16" stroke="#1e293b"/>
+  <text x="90" y="458" fill="#e2e8f0" font-size="20" font-family="Segoe UI, Arial, sans-serif">SU0202 - NodeJS</text>
+  <text x="560" y="458" text-anchor="end" fill="#22c55e" font-size="20" font-family="Segoe UI, Arial, sans-serif">Present</text>
+
+  <rect x="68" y="498" width="544" height="66" rx="10" fill="#060b16" stroke="#1e293b"/>
+  <text x="90" y="538" fill="#e2e8f0" font-size="20" font-family="Segoe UI, Arial, sans-serif">SU0203 - NoSQL</text>
+  <text x="560" y="538" text-anchor="end" fill="#f59e0b" font-size="20" font-family="Segoe UI, Arial, sans-serif">Leave</text>
+
+  <rect x="660" y="274" width="580" height="396" rx="16" fill="#0b1220" stroke="#1f2937"/>
+  <text x="688" y="316" fill="#f8fafc" font-size="26" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Profile and Mentors</text>
+
+  <circle cx="735" cy="390" r="52" fill="#1f2937"/>
+  <text x="735" y="398" text-anchor="middle" fill="#f8fafc" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700">RS</text>
+
+  <text x="810" y="376" fill="#e2e8f0" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Ronit Soni</text>
+  <text x="810" y="406" fill="#94a3b8" font-size="18" font-family="Segoe UI, Arial, sans-serif">SUxCG 712</text>
+  <text x="810" y="432" fill="#94a3b8" font-size="18" font-family="Segoe UI, Arial, sans-serif">ronitsoni@gmail.com</text>
+
+  <rect x="688" y="466" width="524" height="64" rx="10" fill="#060b16" stroke="#1e293b"/>
+  <text x="710" y="506" fill="#e2e8f0" font-size="20" font-family="Segoe UI, Arial, sans-serif">Mentor: Ankita</text>
+
+  <rect x="688" y="546" width="524" height="64" rx="10" fill="#060b16" stroke="#1e293b"/>
+  <text x="710" y="586" fill="#e2e8f0" font-size="20" font-family="Segoe UI, Arial, sans-serif">Next review: Monday, 03:00 PM</text>
+</svg>

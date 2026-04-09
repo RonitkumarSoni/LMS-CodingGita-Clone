@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-label="LMS login screen preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f1a"/>
+      <stop offset="100%" stop-color="#070a12"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <circle cx="160" cy="90" r="120" fill="#1d4ed8" opacity="0.2"/>
+  <circle cx="1160" cy="610" r="160" fill="#0891b2" opacity="0.18"/>
+
+  <rect x="400" y="120" width="480" height="480" rx="24" fill="url(#card)" stroke="#1f2937"/>
+  <text x="640" y="200" text-anchor="middle" fill="#f8fafc" font-size="44" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Welcome Back</text>
+  <text x="640" y="235" text-anchor="middle" fill="#94a3b8" font-size="20" font-family="Segoe UI, Arial, sans-serif">Sign in to your account</text>
+
+  <text x="440" y="285" fill="#cbd5e1" font-size="18" font-family="Segoe UI, Arial, sans-serif">Role</text>
+  <rect x="440" y="300" width="120" height="44" rx="10" fill="#e5e7eb"/>
+  <text x="500" y="328" text-anchor="middle" fill="#111827" font-size="20" font-family="Segoe UI, Arial, sans-serif">Student</text>
+  <rect x="572" y="300" width="120" height="44" rx="10" fill="#0b1220" stroke="#374151"/>
+  <text x="632" y="328" text-anchor="middle" fill="#9ca3af" font-size="20" font-family="Segoe UI, Arial, sans-serif">Mentor</text>
+  <rect x="704" y="300" width="120" height="44" rx="10" fill="#0b1220" stroke="#374151"/>
+  <text x="764" y="328" text-anchor="middle" fill="#9ca3af" font-size="20" font-family="Segoe UI, Arial, sans-serif">Admin</text>
+
+  <text x="440" y="382" fill="#cbd5e1" font-size="18" font-family="Segoe UI, Arial, sans-serif">University UID</text>
+  <rect x="440" y="396" width="400" height="54" rx="10" fill="#05080f" stroke="#374151"/>
+  <text x="460" y="430" fill="#f8fafc" font-size="24" font-family="Consolas, monospace">108428</text>
+
+  <text x="440" y="486" fill="#cbd5e1" font-size="18" font-family="Segoe UI, Arial, sans-serif">Password</text>
+  <rect x="440" y="500" width="400" height="54" rx="10" fill="#05080f" stroke="#374151"/>
+  <text x="460" y="534" fill="#f8fafc" font-size="24" font-family="Consolas, monospace">******</text>
+
+  <rect x="440" y="572" width="400" height="54" rx="10" fill="#f8fafc"/>
+  <text x="640" y="607" text-anchor="middle" fill="#111827" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Sign in</text>
+</svg>
